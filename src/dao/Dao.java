@@ -16,7 +16,7 @@ public class Dao {
 
 			InitialContext ic = new InitialContext();
 
-			ds = (DataSource)ic.lookup("java:/comp/env/jdbc/exen");
+			ds = (DataSource)ic.lookup("java:/comp/env/jdbc/exam");
 		}
 		return ds.getConnection();
 	}
